@@ -1,0 +1,127 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: #e6e6e6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* ============================
+   login-card
+============================ */
+.login-card {
+  background: #fff;
+  width: 330px;
+  padding: 28px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border-top: 6px solid #a569bd;
+}
+
+.login-card h2 {
+  text-align: center;
+  color: #a569bd;
+  margin-bottom: 20px;
+}
+
+.login-card input {
+  width: 93%;
+  padding: 10px;
+  margin-bottom: 14px;
+  border: 1px solid #bbb;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+.login-card input:focus {
+  border-color: #a569bd;
+  box-shadow: 0 0 5px rgba(165,105,189,0.4);
+}
+
+.login-card button {
+  width: 100%;
+  padding: 10px;
+  background: #a569bd;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.login-card button:hover {
+  background: #8e44ad;
+}
+
+.login-card a {
+  color: #a569bd;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.login-card a:hover {
+  text-decoration: underline;
+}
+
+/* ============================
+   mypage-card
+============================ */
+.mypage-card {
+  background: #fff;
+  width: 360px;
+  padding: 28px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border-top: 6px solid #a569bd;
+  text-align: center;
+}
+
+.mypage-card h2 {
+  color: #a569bd;
+  margin-bottom: 20px;
+}
+
+.profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #a569bd;
+  margin-bottom: 15px;
+}
+
+.mypage-info {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.mypage-card a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #a569bd;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.mypage-card a:hover {
+  text-decoration: underline;
+}
+
+.mypage-card input,
+.mypage-card button {
+  width: 93%;
+  padding: 10px;
+  margin-bottom: 14px;
+  border: 1px solid #bbb;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+.mypage-card button {
+  background: #a569bd;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
